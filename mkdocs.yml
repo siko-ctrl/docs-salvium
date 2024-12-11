@@ -1,5 +1,5 @@
 site_name: Salvium Documentation
-site_description: Comprehensive documentation for the Salvium privacy-focused cryptocurrency
+site_description: Detailed documentation of Salvium
 site_author: Salvium Team
 site_url: https://docs.salvium.org
 
@@ -94,18 +94,12 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 # Plugins
 plugins:
   - search
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
-      htmlmin_opts:
-        remove_comments: true
   - git-revision-date
   - git-authors
 
